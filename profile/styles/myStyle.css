@@ -1,0 +1,98 @@
+body 
+{
+    direction:rtl; text-align:right; background-image:url('../images/full.png'); 
+    background-repeat:('../images/full.png')no-repeat; position:cover;
+        }
+#myName {
+    font-family: Gisha;
+    color:#CC3791;
+    font-weight: bold;
+    font-size: 25pt;
+    text-align:center;
+    
+}
+#about{text-align:center;}
+#me{
+    background-image:url(../images/me.jpg);
+    width: 250px;
+    height:300px;
+    position:absolute;
+    margin-right:480px;
+    float:left;
+    background-size:cover;
+}
+#me:hover{
+background-position:center;
+background-image:url(../images/monkey.png);
+width: 250px;
+height:200px;
+-webkit-transition: all 3s ease-in-out;
+-moz-transition: all 3s ease-in-out;
+-ms-transition: all 3s ease-in-out;
+-o-transition: all 3s ease-in-out;
+transition: all 3s ease-in-out;
+
+}
+#container {
+    color:#99296D;
+    font-family:Gisha;
+    font-size:14pt;
+    text-align:center;
+}
+h1 {font-family:Gisha;
+    font-size:15pt;
+    text-align:right;
+    color:purple;
+}
+p {
+    text-align:right;
+}
+footer{
+    text-align:center;
+}
+}
+    li{
+        list-style-type:none;
+    }
+nav ul li
+{
+    display: inline-block;
+    float:right;
+}
+
+nav ul li a
+{
+    font-family:Gisha;
+    display:block;
+    background-color: #ffffff;
+    color: #46065b;
+    font-size:20px;
+    width:150px;
+    height:20px;
+    padding:5px;
+    margin:50px;
+    text-decoration:none;
+    text-align:center;
+}
+
+nav ul li:hover
+{
+    background-color:#D479B0;
+}
+
+nav ul li:active{
+    background-color: #4C1536;
+    font-weight:bold;
+}
+nav ul li:visited{
+    background-color: #D41E8F;
+    font-weight:bold;
+    
+}
+
+
+
+
+
+
+
